@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript">
+function slide1(){
+document.getElementById('id').src="imagens/filmes.jpg";
+setTimeout("slide2()", 5000)
+}
+
+function slide2(){
+document.getElementById('id').src="imagens/theboys.png";
+setTimeout("slide3()", 5000)
+}
+
+function slide3(){
+document.getElementById('id').src="imagens/round6.png";
+setTimeout("slide4()", 5000)
+}
+function slide4(){
+document.getElementById('id').src="imagens/sandman.jpeg";
+setTimeout("slide1()", 3000)
+}
+</script>
+<body onLoad="slide1()">
+<table border=1>
+	<tr>
+		<td style="background: green;width: 424px;">
+		<h2>Só Aqui</h2>
+		</td>
+		<td style="padding: 10;margin: 10px;text-align: center;width: 848px;">
+		<img id="id" style="width: 30%;">
+		</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -35,9 +35,22 @@ body{
 		height: auto;
 		float: left;
 	}
-	
 		.banner{
-		 width:424px;
-		 height:375px;
-	
-	 }
+		width:424px;
+		height:375px;
+		}
+		
+	#conteudo-rodape{
+	width: 824px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	margin: 1px;	
+	}
+	#video-rodape{
+	width: 430px;
+	height: 285px;
+	padding: 1px;
+	margin: 1px;
+	float: left;
+	}
