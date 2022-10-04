@@ -1,0 +1,15 @@
+header{
+	background: #888888;
+	padding: 20px 0;
+}
+
+.caixa	{position: relative;
+		width: 920px;
+		margin: 0 auto;
+	
+}
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
