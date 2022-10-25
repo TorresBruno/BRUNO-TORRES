@@ -13,3 +13,31 @@ nav {
 	top: 50px;
 	right: 0;
 }
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+ 
+nav a{
+	text-transform: uppercase;
+	color:#000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+.produtos{
+		width: 1920;
+		margin: 0auto;
+		padding: 80px 0;
+}
+.produtos li{
+	display: inline-block;
+	border: 10px solid #000000;
+	text-align: center;
+	width: 30%;
+	margin: 0 1.5%;
+	vertical-align: top;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
