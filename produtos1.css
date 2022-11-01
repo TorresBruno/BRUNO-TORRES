@@ -1,9 +1,8 @@
-header{
-	background: #888888;
-	padding: 20px 0;
+header{	background: #888888;
+		padding: 20px 0;
 }
 
-.caixa	{position: relative;
+.caixa{	position: relative;
 		width: 920px;
 		margin: 0 auto;
 	
@@ -26,6 +25,12 @@ nav a{
 	font-size: 22px;
 	text-decoration: none;
 }
+
+nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
 .produtos{
 		width: 1920;
 		margin: 0auto;
@@ -40,4 +45,28 @@ nav a{
 	vertical-align: top;
 	padding: 30px 20px;
 	box-sizing: border-box;
+	border-radius: 60px;
+}
+
+.produtos li:hover{
+	border-color:blue;
+	font-size: 15;
+	border-radius: 60px;
+}
+.produtos li: active{
+	border-color: red;
+	font-size: 40px;	
+}
+
+footer{ background: black;
+		padding: 0;
+		text-align: center;
+}
+	
+.Copyright{
+	color:white;
+	font-size: 10px;
+	margin: 20px 0 20px;
+	
+	
 }
